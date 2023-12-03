@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS `rankings`;
+DROP TABLE IF EXISTS `songs`;
+DROP TABLE IF EXISTS `artists`;
+
 CREATE TABLE Artists (
     artist_id INT AUTO_INCREMENT PRIMARY KEY,
     artist_name VARCHAR(255)
