@@ -25,7 +25,3 @@ JOIN songs s ON r.song_id = s.song_id
 JOIN artists a ON r.artist_id = a.artist_id
 ORDER BY weeks_on_list DESC
 LIMIT 1;
-
-SELECT * FROM artists;
-SELECT * FROM rankings;
-SELECT * FROM songs;
